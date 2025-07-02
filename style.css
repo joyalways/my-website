@@ -527,3 +527,18 @@ footer {
     height: 200px; /* adjust as you like for phones */
   }
 }
+.full-width-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.full-width-video::-moz-media-controls {
+  display: none !important;
+}
+
+.full-width-video::-ms-media-controls {
+  display: none !important;
+}
+
+.full-width-video {
+  pointer-events: none;
+}

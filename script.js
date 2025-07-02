@@ -36,4 +36,14 @@ if (backToTop) {
 
 }
 
+const video = document.getElementById('heroVideo');
 
+function toggleVideoControls() {
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    video.controls = true;  // Show controls on mobile
+  } else {
+    video.controls = false; // Hide controls on desktop
+  }
+}
+
+toggleVideoControls();

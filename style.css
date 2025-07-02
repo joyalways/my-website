@@ -522,3 +522,8 @@ footer {
     font-size: 0.9em;
   }
 }
+@media (max-width: 600px) {
+  .full-width-video {
+    height: 200px; /* adjust as you like for phones */
+  }
+}
